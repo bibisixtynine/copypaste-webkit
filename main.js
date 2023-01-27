@@ -5,12 +5,12 @@ const appDiv = document.getElementById('app');
 
 let prevent = false;
 
-appDiv.addEventListener('beforecopy', (e) => {
+document.body.addEventListener('beforecopy', (e) => {
   console.log('before');
   if (prevent) e.preventDefault();
 });
 
-appDiv.addEventListener('beforecut', () => {
+document.body.addEventListener('beforecut', (e) => {
   console.log('beforecut');
   if (prevent) e.preventDefault();
 });
