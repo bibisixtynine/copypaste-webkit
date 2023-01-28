@@ -1,3 +1,11 @@
 html {
-  background-color: #777777;
+  background-color: black;
+  color: blanchedalmond;
+  text-align: center;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+div {
+  padding: 20px;
 }
